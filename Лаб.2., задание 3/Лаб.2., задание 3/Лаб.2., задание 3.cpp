@@ -7,13 +7,16 @@ int main()
 {
     setlocale(LC_ALL, "RUS");
     string name, lastname, patronymic;
+    int birthyear;
     cout << "Enter your name: ";
     cin >> name;
     cout << "Enter your last name: ";
     cin >> lastname;
     cout << "Enter your patronymic: ";
     cin >> patronymic;
-    cout << "Hello," << name << " " << lastname << " " << patronymic << endl;
+    cout << "Enter your year of birth: ";
+    cin >> birthyear;
+    cout << "Hello," << name << " " << lastname << " " << patronymic << ". Your year of birth is: " << birthyear << " " << endl;
 
     double a, b, c;
     cout << "Введите три числа через пробел \n";
