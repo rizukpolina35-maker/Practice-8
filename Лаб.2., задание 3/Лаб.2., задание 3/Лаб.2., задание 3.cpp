@@ -9,7 +9,7 @@ int main()
     string name;
     cout << "Enter your name: ";
     cin >> name;
-    cout << "Hello " << name << endl;
+    cout << "Hello," << name << endl;
     double a, b, c;
     cout << "Введите три числа через пробел \n";
     cin >> a >> b >> c;
