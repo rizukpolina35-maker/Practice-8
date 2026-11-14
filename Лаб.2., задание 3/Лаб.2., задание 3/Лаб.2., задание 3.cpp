@@ -6,10 +6,13 @@ using namespace std;
 int main()
 {
     setlocale(LC_ALL, "RUS");
-    string name;
+    string name, lastname;
     cout << "Enter your name: ";
     cin >> name;
-    cout << "Hello," << name << endl;
+    cout << "Enter your last name: ";
+    cin >> lastname;
+    cout << "Hello," << name << " " << lastname << endl;
+
     double a, b, c;
     cout << "Введите три числа через пробел \n";
     cin >> a >> b >> c;
