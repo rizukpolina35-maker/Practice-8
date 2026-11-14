@@ -1,10 +1,15 @@
 ﻿// Лаб.2., задание 3.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
 //
-#include <iostream>  
+#include <iostream> 
+#include <string>
 using namespace std;
 int main()
 {
     setlocale(LC_ALL, "RUS");
+    string name;
+    cout << "Enter your name: ";
+    cin >> name;
+    cout << "Hello " << name << endl;
     double a, b, c;
     cout << "Введите три числа через пробел \n";
     cin >> a >> b >> c;
